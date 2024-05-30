@@ -18,3 +18,5 @@
 #### --- Erzebet: Manejador del evento del temporizador (GTimer). Mueve el jugador y la bola. Verifica colisiones con los bordes, el jugador y los bloques. Actualiza la puntuación y verifica condiciones de victoria o derrota.
 #### --- Abajo: Maneja la entrada del teclado para mover el jugador a la izquierda o derecha cuando se presionan las teclas correspondientes.
 #### --- Press: Maneja la entrada del teclado para detener el movimiento del jugador cuando se sueltan las teclas correspondientes. Reinicia el juego si se presiona Enter y el juego ha terminado.
+
+# JOHN ALEJANDRO MIRANDA MELGUIZO
