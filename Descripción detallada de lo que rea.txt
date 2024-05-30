@@ -1,0 +1,27 @@
+Descripción detallada de lo que realiza cada una de las clases
+bool goLeft: Indica si el jugador se está moviendo a la izquierda.
+bool goRight: Indica si el jugador se está moviendo a la derecha.
+bool isNicetry: Indica si el juego ha terminado (ganado o perdido).
+int score: Mantiene la puntuación del jugador.
+int ballx: Controla la velocidad y dirección horizontal de la bola.
+int bally: Controla la velocidad y dirección vertical de la bola.
+int playerSpeed: La velocidad de movimiento del jugador.
+Random rnd: Generador de números aleatorios para crear colores aleatorios y modificar la velocidad de la bola.
+PictureBox[] blockArray: Array de PictureBox que representa los bloques en el juego.
+Métodos
+Nicetry:Detiene el juego y muestra un mensaje dependiendo de si el jugador ganó o perdió.
+Método EnemiesPlace():
+Crea y posiciona 15 bloques en la ventana del juego.
+Llama al método setupGame para inicializar el juego.
+Método Quitarbloques():
+Elimina todos los bloques del formulario.
+Método Erzebet:
+Manejador del evento del temporizador (GTimer).
+Mueve el jugador y la bola.
+Verifica colisiones con los bordes, el jugador y los bloques.
+Actualiza la puntuación y verifica condiciones de victoria o derrota.
+Método Abajo:
+Maneja la entrada del teclado para mover el jugador a la izquierda o derecha cuando se presionan las teclas correspondientes.
+Método Press:
+Maneja la entrada del teclado para detener el movimiento del jugador cuando se sueltan las teclas correspondientes.
+Reinicia el juego si se presiona Enter y el juego ha terminado.
